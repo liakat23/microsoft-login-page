@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 110px auto;
+}
+body{
+    background: url(../image/2_bc3d32a696895f78c19df6c717586a5d.svg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.login{
+    max-width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+
+    box-shadow: 1px 2px 13px rgb(173, 173, 173);
+    padding: 50px;
+}
+h2{
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
+.signup{
+        max-width: 500px;
+        height: 60px;
+        display: flex;
+        background-color: white;
+        margin: 40px auto;
+        box-shadow: 1px 2px 13px rgb(173, 173, 173);
+        justify-content:start;
+        align-items: center;
+        gap: 15px;
+        padding: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        opacity: 0.7;
+        font-size: 18px;
+}
+.input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input1{
+    display: block;
+    width:15rem;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(26, 29, 243);
+}
+.p1, .p2{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(37, 37, 216);
+}
+.backbtn, .nextbtn{
+    padding: 10px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    background-color: #B2B2B2;
+}
+.nextbtn{
+    background-color: #005DA6;
+    color: white;
+}
+.button{
+    display: flex;
+    gap: 8px;
+    padding-right: 30px;
+    justify-content: end;
+}
+.input1:focus{
+
+    outline: none;
+    /* outline-bottom: #005DA6; */
+}
